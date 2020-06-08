@@ -65,3 +65,6 @@ docker rm <container_id>
 ```sh
 docker exec -it <container_Name> /bin/bash
 ```
+
+#13. To view permission of a file in numerical format
+stat -c '%a' /opt/docker/create-simple-devops-project.yml
